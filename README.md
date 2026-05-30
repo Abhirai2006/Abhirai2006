@@ -12,3 +12,13 @@ CS student passionate about C, C++, and Python. Building DSA skills and explorin
 ![](https://github-readme-stats.shion.dev/api?username=Abhirai2006&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=Abhirai2006&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abhirai2006&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Abhirai2006&utm_content=line">
+  <img
+    src="https://render.gitanimals.org/lines/Abhirai2006"
+    width="500"
+    height="160"
+  />
+</a>
+  
