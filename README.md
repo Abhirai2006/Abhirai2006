@@ -16,7 +16,6 @@ A deeply interactive sorting visualizer that turns pseudocode into something you
 *   🧠 **Quiz mode** — 3-tier "Name That Sort" game: identify animations, trace snapshots, reorder pseudocode.
 *   🧬 **Sort DNA** — A session personality engine that tracks your behaviour and assigns you a type: *Explorer, Speedrunner, Deep Diver...*
 *   🔗 Embeddable widget (`/embed`) for blog posts and teaching pages.
-*   *Stack:* TanStack Start, React 19, Vite, Tailwind v4, TypeScript, OKLCH design system.
 
 #### **<a href="https://github.com/Abhirai2006/Binary_Search">Binary Search Visualizer</a>** — **<a href="https://binarysearch-abhirai.netlify.app/">Live Demo ↗</a>**
 A high-performance Binary Search visualizer with glassmorphism UI, real-time logic tracking, and interactive audio feedback.
@@ -28,7 +27,7 @@ Mysore University IV Sem lab programs across OS, C++, DAA & Graph Algorithms —
 
 #### **<a href="https://github.com/Abhirai2006/daily-code">daily-code</a>** — *Ongoing*
 Daily Python practice repo. Documenting the grind from basics to advanced concepts.
-*   *Topics:* Python, DSA, OOP's, Data Structures
+*   *Topics:* Python, DSA, OOP, Data Structures
 
 ---
 
@@ -38,12 +37,6 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
   <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  
-  <!-- Frontend & Frameworks -->
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   
   <!-- Data Science & DB -->
   <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
