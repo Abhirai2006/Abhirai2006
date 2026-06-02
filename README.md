@@ -1,6 +1,6 @@
 <div align="center">
   <h1>hey, I'm Abhishek 👋</h1>
-  <p><b>CS student @ Mysore University · DSA nerd · building cool stuff with C, C++ & Python</b></p>
+  <p><b>AI & ML student @ Mysore University · DSA nerd · building cool stuff with C, C++ & Python</b></p>
   <p><i>I like turning abstract algorithms into things you can actually see and feel.</i></p>
 </div>
 
