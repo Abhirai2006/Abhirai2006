@@ -8,7 +8,7 @@
 
 ### 🚀 What I'm Building
 
-#### **<a href="#">O(patience) — Sorting Algorithm Playground</a>**
+#### **<a href="https://github.com/Abhirai2006/sorting-visualizer">O(patience) — Sorting Algorithm Playground</a>** — **<a href="https://sort-visually-abhirai2006.lovable.app/">Live Demo ↗</a>**
 *Visualize. Compare. Understand.*
 A deeply interactive sorting visualizer that turns pseudocode into something you can see, race, and quiz yourself on. Not your average bar-chart demo.
 *   🎯 **Visualizer** — Bubble, Selection, Insertion, Merge & Quick Sort with live pointer flags, sound mode (pitch follows bar value), confetti on completion, and step-by-step export.
@@ -16,6 +16,7 @@ A deeply interactive sorting visualizer that turns pseudocode into something you
 *   🧠 **Quiz mode** — 3-tier "Name That Sort" game: identify animations, trace snapshots, reorder pseudocode.
 *   🧬 **Sort DNA** — A session personality engine that tracks your behaviour and assigns you a type: *Explorer, Speedrunner, Deep Diver...*
 *   🔗 Embeddable widget (`/embed`) for blog posts and teaching pages.
+*   *Stack:* React 19, TanStack Start, Tailwind v4, TypeScript, Cloudflare Pages
 
 #### **<a href="https://github.com/Abhirai2006/Binary_Search">Binary Search Visualizer</a>** — **<a href="https://binarysearch-abhirai.netlify.app/">Live Demo ↗</a>**
 A high-performance Binary Search visualizer with glassmorphism UI, real-time logic tracking, and interactive audio feedback.
@@ -37,12 +38,12 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
   <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  
+
   <!-- Data Science & DB -->
   <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
   <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  
+
   <!-- Hosting -->
   <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
   <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="Netlify" />
