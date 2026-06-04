@@ -2,7 +2,7 @@
 
 # hey, I'm Abhishek 👋
 
-**AI & ML student @ Mysore University · DSA nerd · building cool stuff with C, C++ & Python**
+**AI & ML student @ Mysore University · building cool stuff with C, C++ & Python**
 
 *I like turning abstract algorithms into things you can actually see and feel.*
 
