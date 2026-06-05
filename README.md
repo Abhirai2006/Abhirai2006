@@ -54,7 +54,6 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
 ---
-
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -76,18 +75,25 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
 
 ---
 
+## 🎮 Playground & Activity
+
+<!-- 1. The Interactive Snake/Pacman Graph (Centered) -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph.svg">
+  </picture>
+</p>
+
+<!-- 2. Your GitAnimal Pet (Centered directly below) -->
 <p align="center">
   <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Abhirai2006&utm_content=line">
     <img src="https://render.gitanimals.org/lines/Abhirai2006" width="500" height="160" alt="gitanimals" />
   </a>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph.svg">
-</picture>
-
+<!-- 3. Final Footer elements -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Abhirai2006&icon=5&color=blue" alt="profile views" />
 </p>
