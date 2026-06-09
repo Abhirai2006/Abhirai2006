@@ -93,7 +93,13 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
   </a>
 </p>
 
-![3D GitHub Contribution Graph](https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/main/profile-3d-contrib/profile-night-green.svg)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/main/profile-3d-contrib/profile-night-green.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/main/profile-3d-contrib/profile-green.svg" />
+    <img alt="github profile contributions chart" src="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/main/profile-3d-contrib/profile-green.svg" />
+  </picture>
+</p>
 
 <!-- 3. Final Footer elements -->
 <p align="center">
