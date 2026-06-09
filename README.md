@@ -93,6 +93,8 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
   </a>
 </p>
 
+![3D GitHub Contribution Graph](https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/main/profile-3d-contrib/profile-night-green.svg)
+
 <!-- 3. Final Footer elements -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Abhirai2006&icon=5&color=blue" alt="profile views" />
