@@ -58,8 +58,8 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abhirai2006&theme=github_dark&hide_border=false" alt="Abhishek's GitHub Stats" />
-  <img src="https://streak-stats.demolab.com/?user=Abhirai2006&theme=github_dark&hide_border=false" alt="GitHub Streak" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Abhirai2006&theme=github_dark&hide_border=false" alt="Abhishek's GitHub Stats" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=Abhirai2006&theme=github_dark&hide_border=false" alt="GitHub Streak" />
 </p>
 
 <p align="center">
