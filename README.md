@@ -51,33 +51,25 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
 
 ## 💻 Tech Stack
 
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=%2300C7B7)
 
 ---
+
 ## 📊 GitHub Stats
 
 <p align="center">
-  <table align="center" border="0" cellpadding="0" cellspacing="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.shion.dev/api?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true" alt="Abhishek's GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://streak-stats.demolab.com/?user=Abhirai2006&theme=github_dark&hide_border=false" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats.vercel.app/api?username=Abhirai2006&theme=github_dark&hide_border=false" alt="Abhishek's GitHub Stats" />
+  <img src="https://streak-stats.demolab.com/?user=Abhirai2006&theme=github_dark&hide_border=false" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
 </p>
 
 ---
 
 ## 🎮 Playground & Activity
 
-<!-- 1. The Interactive Snake/Pacman Graph (Centered) -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph-dark.svg">
@@ -86,14 +78,12 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
   </picture>
 </p>
 
-<!-- 2. Your GitAnimal Pet (Centered directly below) -->
 <p align="center">
   <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Abhirai2006&utm_content=line">
     <img src="https://render.gitanimals.org/lines/Abhirai2006" width="500" height="160" alt="gitanimals" />
   </a>
 </p>
 
-<!-- 3. Final Footer elements -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Abhirai2006&icon=5&color=blue" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Abhirai2006&style=flat&color=blue" alt="profile views" />
 </p>
