@@ -79,9 +79,13 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
 </p>
 
 <p align="center">
-  <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Abhirai2006&utm_content=line">
-    <img src="https://render.gitanimals.org/lines/Abhirai2006" width="500" height="160" alt="gitanimals" />
-  </a>
+  <a href="https://www.gitanimals.org/en-US?utm_medium=image&utm_source=Abhirai2006&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/Abhirai2006"
+  width="600"
+  height="300"
+/>
+</a>
 </p>
 
 <p align="center">
