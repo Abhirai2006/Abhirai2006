@@ -58,12 +58,12 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Abhirai2006&theme=github_dark&hide_border=false" alt="Abhishek's GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true" alt="Abhishek's GitHub Stats" />
   <img height="165" src="https://streak-stats.demolab.com/?user=Abhirai2006&theme=github_dark&hide_border=false" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
 </p>
 
 ---
@@ -79,9 +79,13 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
 </p>
 
 <p align="center">
-  <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Abhirai2006&utm_content=line">
-    <img src="https://render.gitanimals.org/lines/Abhirai2006" width="500" height="160" alt="gitanimals" />
-  </a>
+  <a href="https://www.gitanimals.org/en-US?utm_medium=image&utm_source=Abhirai2006&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/Abhirai2006"
+  width="600"
+  height="300"
+/>
+</a>
 </p>
 
 <p align="center">
