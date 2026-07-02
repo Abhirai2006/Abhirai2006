@@ -68,14 +68,6 @@ Daily Python practice repo. Documenting the grind from basics to advanced concep
 
 ---
 
-<p align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://komarev.com/ghpvc/?username=Abhirai2006&icon=0&color=0" alt="Profile Views" />
-  </a>
-</p>
-
----
-
 ## 🎮 Playground & Activity
 
 <p align="center">
