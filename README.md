@@ -14,7 +14,7 @@
 
 ## 🚀 What I'm Building
 
-### [🗣️ MUSE Students Voice](https://github.com/Abhirai2006/MUSE-Students-Voice) — [Live Demo ↗](https://muse-studentsvoice.lovable.app/)
+### [🗣️ MUSE Students Voice](https://github.com/Abhirai2006/MUSE-Students-Voice) - [Live Demo ↗](https://muse-studentsvoice.lovable.app/)
 *Speak up. Anonymously. Together.*
  
 An anonymous, quorum-verified grievance platform for my campus. Every complaint is voted True or False by fellow students, and the ones that clear quorum get auto-compiled into a formal PDF letter addressed to the Director & Vice Chancellor.
@@ -28,7 +28,7 @@ An anonymous, quorum-verified grievance platform for my campus. Every complaint 
   
 ---
 
-### [O(patience) — Sorting Algorithm Playground](https://github.com/Abhirai2006/sorting-visualizer) — [Live Demo ↗](https://sort-visually-abhirai2006.lovable.app/)
+### [O(patience) - Sorting Algorithm Playground](https://github.com/Abhirai2006/sorting-visualizer) — [Live Demo ↗](https://sort-visually-abhirai2006.lovable.app/)
 *Visualize. Compare. Understand.*
 
 A deeply interactive sorting visualizer that turns pseudocode into something you can see, race, and quiz yourself on. Not your average bar-chart demo.
@@ -41,7 +41,7 @@ A deeply interactive sorting visualizer that turns pseudocode into something you
 
 ---
 
-### [Binary Search Visualizer](https://github.com/Abhirai2006/Binary_Search) — [Live Demo ↗](https://binarysearch-abhirai.netlify.app/)
+### [Binary Search Visualizer](https://github.com/Abhirai2006/Binary_Search) - [Live Demo ↗](https://binarysearch-abhirai.netlify.app/)
 
 A high-performance Binary Search visualizer with glassmorphism UI, real-time logic tracking, and interactive audio feedback.
 
@@ -55,7 +55,7 @@ Mysore University IV Sem lab programs across OS, C++, DAA & Graph Algorithms —
 
 ---
 
-### [daily-code](https://github.com/Abhirai2006/daily-code) — *Ongoing*
+### [daily-code](https://github.com/Abhirai2006/daily-code) - *Ongoing*
 
 Daily Python practice repo. Documenting the grind from basics to advanced concepts.
 
