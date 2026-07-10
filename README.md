@@ -14,6 +14,20 @@
 
 ## 🚀 What I'm Building
 
+### [🗣️ MUSE Students Voice](https://github.com/Abhirai2006/MUSE-Students-Voice) — [Live Demo ↗](https://muse-studentsvoice.lovable.app/)
+*Speak up. Anonymously. Together.*
+ 
+An anonymous, quorum-verified grievance platform for my campus. Every complaint is voted True or False by fellow students, and the ones that clear quorum get auto-compiled into a formal PDF letter addressed to the Director & Vice Chancellor.
+ 
+- 🔐 **USN-gated signup** — one account per student, checked against a seeded registry of 1,159+ real USNs across five departments
+- 🕶️ **Anonymous by design** — your USN only proves you're a real student; it never appears on your post, vote, or comment — not even the admin can see who wrote what
+- ✅ **True/False consensus voting** with a live quorum bar, so only complaints the campus actually agrees on get escalated
+- 📄 **One-click PDF escalation letters** (jsPDF) once a complaint crosses quorum, plus a ready-to-send email body for admins
+- 🛡️ **Row-Level Security everywhere** — public reads go through sanitized Postgres views, admin roles are checked via security-definer RPCs, and author identity never leaks
+- ⚡ Server-rendered at the edge on **Cloudflare Workers** via **TanStack Start + React 19**, backed by **Supabase**
+  
+---
+
 ### [O(patience) — Sorting Algorithm Playground](https://github.com/Abhirai2006/sorting-visualizer) — [Live Demo ↗](https://sort-visually-abhirai2006.lovable.app/)
 *Visualize. Compare. Understand.*
 
