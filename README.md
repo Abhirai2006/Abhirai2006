@@ -63,7 +63,7 @@ Mysore University IV Sem lab programs across OS, C++, DAA & Graph Algorithms —
 
 ---
 
-### [daily-code](https://github.com/Abhirai2006/daily-code) — *ongoing*
+### [daily-code](https://github.com/Abhirai2006/daily-code) - *ongoing*
 Daily Python practice repo. Documenting the grind from basics to advanced concepts.
 
 `Python` `DSA` `OOP` `Data Structures`
