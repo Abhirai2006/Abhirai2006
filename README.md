@@ -14,15 +14,17 @@
 
 ## 🚀 What I'm Building
 
+<div align="center">
+
 | Project | Stack | Live Demo |
 |---|---|---|
-| [MUSE Students Voice](https://github.com/Abhirai2006/MUSE-Students-Voice) | TanStack Start · React 19 · Supabase · Cloudflare Workers | [Open ↗](https://muse-studentsvoice.lovable.app/) |
-| [O(patience) — Sorting Visualizer](https://github.com/Abhirai2006/sorting-visualizer) | TypeScript · React | [Open ↗](https://sort-visually-abhirai2006.lovable.app/) |
-| [Binary Search Visualizer](https://github.com/Abhirai2006/Binary_Search) | HTML · CSS · JS | [Open ↗](https://binarysearch-abhirai.netlify.app/) |
-| [IV Semester Lab Programs](https://github.com/Abhirai2006/IV-semester-lab-programs) | C · C++ · Python | - |
-| [daily-code](https://github.com/Abhirai2006/daily-code) *(ongoing)* | Python · DSA | - |
+| [MUSE Students Voice](https://github.com/Abhirai2006/MUSE-Students-Voice) | TanStack Start · React 19 · Supabase · Cloudflare Workers | <div align="center">[Open ↗](https://muse-studentsvoice.lovable.app/) </div> |
+| [O(patience) — Sorting Visualizer](https://github.com/Abhirai2006/sorting-visualizer) | TypeScript · React | <div align="center">[Open ↗](https://sort-visually-abhirai2006.lovable.app/) </div> |
+| [Binary Search Visualizer](https://github.com/Abhirai2006/Binary_Search) | HTML · CSS · JS | <div align="center">[Open ↗](https://binarysearch-abhirai.netlify.app/) </div> |
+| [IV Semester Lab Programs](https://github.com/Abhirai2006/IV-semester-lab-programs) | C · C++ · Python |<div align="center"> - </div> |
+| [daily-code](https://github.com/Abhirai2006/daily-code) *(ongoing)* | Python · DSA |<div align="center"> - </div> |
 
-<br>
+</div>
 
 ### [🗣️ MUSE Students Voice](https://github.com/Abhirai2006/MUSE-Students-Voice) → [Live Demo ↗](https://muse-studentsvoice.lovable.app/)
 *Speak up. Anonymously. Together.*
