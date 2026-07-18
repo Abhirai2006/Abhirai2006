@@ -26,6 +26,8 @@
 
 </div>
 
+---
+
 ### [🗣️ MUSE Students Voice](https://github.com/Abhirai2006/MUSE-Students-Voice) → [Live Demo ↗](https://muse-studentsvoice.lovable.app/)
 *Speak up. Anonymously. Together.*
 
