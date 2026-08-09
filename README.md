@@ -21,7 +21,7 @@
 | [MUSE Students Voice](https://github.com/Abhirai2006/MUSE-Students-Voice) | TanStack Start · React 19 · Supabase · Cloudflare Workers | <div align="center">[Open ↗](https://muse-studentsvoice.lovable.app/) </div> |
 | [O(patience) - Sorting Visualizer](https://github.com/Abhirai2006/sorting-visualizer) | TypeScript · React | <div align="center">[Open ↗](https://sort-visually-abhirai2006.lovable.app/) </div> |
 | [Binary Search Visualizer](https://github.com/Abhirai2006/Binary_Search) | HTML · CSS · JS | <div align="center">[Open ↗](https://binarysearch-abhirai.netlify.app/) </div> |
-| [IV Semester Lab Programs](https://github.com/Abhirai2006/IV-semester-lab-programs) | C · C++ · Python |<div align="center"> - </div> |
+| [Portfolio v3](https://github.com/Abhirai2006/Portfolio-v3) | TanStack Start · React 19 · Three.js · Tailwind CSS v4 |<div align="center">[Open ↗](https://portfolio-abhirai2006.lovable.app/) </div> |
 | [daily-code](https://github.com/Abhirai2006/daily-code) *(ongoing)* | Python · DSA |<div align="center"> - </div> |
 
 </div>
@@ -60,10 +60,20 @@ A high-performance Binary Search visualizer with glassmorphism UI, real-time log
 
 ---
 
-### [IV Semester Lab Programs](https://github.com/Abhirai2006/IV-semester-lab-programs)
-Mysore University IV Sem lab programs across OS, C++, DAA & Graph Algorithms — cleaned up and actually corrected.
+### [Portfolio v3](https://github.com/Abhirai2006/Portfolio-v3) → [Live Demo ↗](https://portfolio-abhirai2006.lovable.app/)
+*A scroll-driven, 3D-accented personal site, not a template.*
 
-`C` `C++` `Python` `Graph Algorithms` `Operating Systems`
+A single-narrative-page portfolio with chapter-based storytelling, live GitHub activity, an interactive "Ask Abhishek" AI assistant, and real project case studies.
+
+- 🎬 **Cinematic hero scene** — React Three Fiber torus-knot with a mouse-reactive particle field, cursor glow, and a spotlight-mask portrait reveal
+- 📖 **Chapter-based storytelling** — Origin, Power Levels, Live Code, Arsenal, Ask Abhishek, Anime Shelf, Contact
+- 📊 **Live GitHub activity** — real repos, language breakdown, and a daily contribution heatmap pulled from the GitHub REST API (10-minute server cache)
+- 🖼️ **Interactive project gallery** — modal case studies with image carousels, terminal previews for console apps, magnetic "Open" cursor, and spotlight hover cards
+- 🤖 **Ask Abhishek** — a streaming AI assistant (SSE, token-by-token) grounded in a resume + lifestyle context dump, with an optional Anime Mode easter egg
+- 🎞️ **The Reel** — an opt-in anime section with real hover-preview video clips and a shared-element morph into a full-screen stage
+- 🌗 **Light/dark theme** — toggle in the top nav with a horizontal wipe transition (View Transitions API)
+- 🎛️ **Motion system** — dock navigation, magnetic buttons, odometer counters, infinite slider, border trails, word-by-word headline reveals, and an animated film-grain overlay
+- ⚡ Server-rendered at the edge on **Cloudflare Workers** via **TanStack Start + React 19**, backed by **Lovable Cloud (Supabase)**
 
 ---
 
