@@ -138,14 +138,27 @@ jobs:
 
             const updatedReadme = readme.slice(0, start) + block + readme.slice(end + endMarker.length);
             fs.writeFileSync("README.md", updatedReadme);
+            fs.writeFileSync(".contribution-data.json", JSON.stringify({
+              total: { lastYear: calendar.totalContributions },
+              contributions: days.map((day) => ({
+                date: day.date,
+                count: day.contributionCount,
+                level: day.contributionCount > 10 ? 4 : day.contributionCount > 5 ? 3 : day.contributionCount > 2 ? 2 : day.contributionCount > 0 ? 1 : 0,
+              })),
+            }));
             core.setOutput("changed", updatedReadme !== readme ? "true" : "false");
             core.info(JSON.stringify(values));
 
-      - name: Commit refreshed values
-        if: steps.stats.outputs.changed == 'true'
+      - name: Regenerate contribution activity image
         run: |
+          node .github/scripts/render-contribution-svg.mjs .contribution-data.json contribution-activity.svg
+          rm .contribution-data.json
+
+      - name: Commit refreshed values
+        run: |
+          if git diff --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md contribution-activity.svg .github/scripts/render-contribution-svg.mjs
           git commit -m "chore: refresh contribution metrics"
           git push
