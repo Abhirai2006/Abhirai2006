@@ -102,6 +102,7 @@ Daily Python practice documenting the grind from basics to advanced concepts.
 
 > These values are calculated from GitHub’s daily contribution calendar and updated by the workflow in `.github/workflows/update-contribution-stats.yml`. **Active days** means dates with at least one contribution. **Longest streak** means consecutive active dates; it is not the same as the total number of active days.
 
+<div align="center">
 <!--START_GITHUB_CONTRIBUTION_STATS-->
 | Contribution metric | Current value |
 |---|---:|
@@ -110,10 +111,12 @@ Daily Python practice documenting the grind from basics to advanced concepts.
 | Current streak | 2 days |
 | Longest streak | 26 days |
 | Peak contributions · one day | 62 |
-
+ 
 _Last refreshed by GitHub Actions on 2026-08-27._
 <!--END_GITHUB_CONTRIBUTION_STATS-->
-
+ 
+</div>
+---
 ---
 
 ## Playground & Activity
