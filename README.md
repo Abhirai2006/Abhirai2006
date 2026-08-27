@@ -19,7 +19,7 @@
 | [MUSE Students Voice](https://github.com/Abhirai2006/MUSE-Students-Voice) | TanStack Start · React 19 · Supabase · Cloudflare Workers | [Open ↗](https://muse-studentsvoice.lovable.app/) |
 | [O(patience) - Sorting Visualizer](https://github.com/Abhirai2006/sorting-visualizer) | TypeScript · React | [Open ↗](https://sort-visually-abhirai2006.lovable.app/) |
 | [Binary Search Visualizer](https://github.com/Abhirai2006/Binary_Search) | HTML · CSS · JavaScript | [Open ↗](https://binarysearch-abhirai.netlify.app/) |
-| [Portfolio v3 / Arthra](https://github.com/Abhirai2006/Portfolio-v3) | TanStack Start · React 19 · Three.js · Tailwind CSS v4 | [Open ↗](https://portfolio-abhirai2006.lovable.app/) |
+| [Portfolio v3](https://github.com/Abhirai2006/Portfolio-v3) | TanStack Start · React 19 · Three.js · Tailwind CSS v4 | [Open ↗](https://portfolio-abhirai2006.lovable.app/) |
 | [daily-code](https://github.com/Abhirai2006/daily-code) *(ongoing)* | Python · DSA | - |
 
 ### MUSE Students Voice → [Live Demo ↗](https://muse-studentsvoice.lovable.app/)
@@ -51,11 +51,11 @@ A deeply interactive sorting visualizer that turns pseudocode into something you
 
 A high-performance Binary Search visualizer with glassmorphism UI, real-time low/mid/high tracking, and interactive audio feedback. It makes the `O(log n)` narrowing process visible step by step.
 
-### Portfolio v3 / Arthra → [Live Demo ↗](https://portfolio-abhirai2006.lovable.app/)
+### Portfolio v3 → [Live Demo ↗](https://portfolio-abhirai2006.lovable.app/)
 
 *A scroll-driven, 3D-accented personal site, not a template.*
 
-A chapter-based portfolio with live GitHub activity, an interactive “Ask Abhishek” assistant, personal data, and project case studies. **Arthra is the previous Lovable build; the new Playable Signal Lab portfolio is the experimental successor.**
+A chapter-based portfolio with live GitHub activity, an interactive “Ask Abhishek” assistant, personal data, and project case studies. This is a separate project from any other personal experiments or builds.
 
 - **Cinematic hero scene** with a Three.js object, mouse-reactive particle field, cursor glow, and portrait reveal.
 - **Chapter-based storytelling** across Origin, Power Levels, Live Code, Arsenal, Ask Abhishek, Anime Shelf, and Contact.
