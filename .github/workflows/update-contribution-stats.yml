@@ -1,0 +1,151 @@
+name: Update contribution stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Recalculate hourly so contributions from today's work appear without waiting for midnight.
+    - cron: "17 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - .github/workflows/update-contribution-stats.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-contribution-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile README repository
+        uses: actions/checkout@v4
+
+      - name: Calculate contribution metrics from GitHub GraphQL
+        id: stats
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require("fs");
+
+            const login = "Abhirai2006";
+            const now = new Date();
+            const from = new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000);
+
+            const query = `
+              query ContributionCalendar($login: String!, $from: DateTime!, $to: DateTime!) {
+                user(login: $login) {
+                  contributionsCollection(from: $from, to: $to) {
+                    contributionCalendar {
+                      totalContributions
+                      weeks {
+                        contributionDays {
+                          date
+                          contributionCount
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            const response = await github.graphql(query, {
+              login,
+              from: from.toISOString(),
+              to: now.toISOString(),
+            });
+
+            const calendar = response.user?.contributionsCollection?.contributionCalendar;
+            if (!calendar) {
+              core.setFailed(`No contribution calendar returned for ${login}.`);
+              return;
+            }
+
+            const days = calendar.weeks
+              .flatMap((week) => week.contributionDays)
+              .sort((a, b) => a.date.localeCompare(b.date));
+
+            const utcDay = (date) => new Date(`${date}T00:00:00Z`).getTime();
+            const daysBetween = (a, b) => Math.round((utcDay(b) - utcDay(a)) / 86400000);
+            const activeDays = days.filter((day) => day.contributionCount > 0).length;
+            const peakPerDay = days.reduce((peak, day) => Math.max(peak, day.contributionCount), 0);
+
+            let longestStreak = 0;
+            let runningStreak = 0;
+            let previousActiveDate = null;
+
+            for (const day of days) {
+              if (day.contributionCount <= 0) {
+                runningStreak = 0;
+                previousActiveDate = null;
+                continue;
+              }
+
+              const continues =
+                previousActiveDate !== null &&
+                daysBetween(previousActiveDate, day.date) === 1;
+
+              runningStreak = continues ? runningStreak + 1 : 1;
+              longestStreak = Math.max(longestStreak, runningStreak);
+              previousActiveDate = day.date;
+            }
+
+            // Current streak is the uninterrupted active run ending on the latest
+            // calendar day returned by GitHub. If the latest day is inactive, it is 0.
+            let currentStreak = 0;
+            let expectedDate = days.at(-1)?.date ?? null;
+            for (let index = days.length - 1; index >= 0 && expectedDate; index -= 1) {
+              const day = days[index];
+              if (day.date !== expectedDate || day.contributionCount <= 0) break;
+              currentStreak += 1;
+              expectedDate = new Date(utcDay(expectedDate) - 86400000)
+                .toISOString()
+                .slice(0, 10);
+            }
+
+            const values = {
+              totalContributions: calendar.totalContributions,
+              activeDays,
+              currentStreak,
+              longestStreak,
+              peakPerDay,
+            };
+
+            const startMarker = "<!--START_GITHUB_CONTRIBUTION_STATS-->";
+            const endMarker = "<!--END_GITHUB_CONTRIBUTION_STATS-->";
+            const readme = fs.readFileSync("README.md", "utf8");
+            const start = readme.indexOf(startMarker);
+            const end = readme.indexOf(endMarker);
+
+            if (start === -1 || end === -1 || end < start) {
+              core.setFailed("README.md is missing the contribution-stat markers.");
+              return;
+            }
+
+            const block = `${startMarker}
+            | Contribution metric | Current value |
+            |---|---:|
+            | Total contributions · last 12 months | ${values.totalContributions} |
+            | Active days · last 12 months | ${values.activeDays} |
+            | Current streak | ${values.currentStreak} days |
+            | Longest streak | ${values.longestStreak} days |
+            | Peak contributions · one day | ${values.peakPerDay} |
+
+            _Last refreshed by GitHub Actions on ${now.toISOString().slice(0, 10)}._
+            ${endMarker}`.replace(/^            /gm, "");
+
+            const updatedReadme = readme.slice(0, start) + block + readme.slice(end + endMarker.length);
+            fs.writeFileSync("README.md", updatedReadme);
+            core.setOutput("changed", updatedReadme !== readme ? "true" : "false");
+            core.info(JSON.stringify(values));
+
+      - name: Commit refreshed values
+        if: steps.stats.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh contribution metrics"
+          git push
