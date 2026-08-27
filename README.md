@@ -96,7 +96,7 @@ Daily Python practice documenting the grind from basics to advanced concepts.
 
 <p align="center">
   <a href="https://github.com/Abhirai2006">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhirai2006&theme=github-compact&hide_border=true&area=true" alt="Abhirai2006 GitHub contribution activity graph" width="100%">
+    <img src="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/main/contribution-activity.svg" alt="Abhirai2006 GitHub contribution activity graph" width="100%">
   </a>
 </p>
 
@@ -120,9 +120,9 @@ _Last refreshed by GitHub Actions on 2026-08-27._
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="pacman-contribution-graph.svg">
-    <img alt="Pacman contribution graph" src="pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph.svg">
+    <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph.svg">
   </picture>
 </p>
 
