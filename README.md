@@ -104,13 +104,18 @@ Daily Python practice documenting the grind from basics to advanced concepts.
 
 <!--START_GITHUB_CONTRIBUTION_STATS-->
 
-| Contribution metric | Current value |
-|---|---:|
-| Total contributions · last 12 months | 852 |
-| Active days · last 12 months | 98 |
-| Current streak | 2 days |
-| Longest streak | 26 days |
-| Peak contributions · one day | 62 |
+<table align="center">
+  <thead>
+    <tr><th>Contribution metric</th><th>Current value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Total contributions · last 12 months</td><td align="right">852</td></tr>
+    <tr><td>Active days · last 12 months</td><td align="right">98</td></tr>
+    <tr><td>Current streak</td><td align="right">2 days</td></tr>
+    <tr><td>Longest streak</td><td align="right">26 days</td></tr>
+    <tr><td>Peak contributions · one day</td><td align="right">62</td></tr>
+  </tbody>
+</table>
 
 _Last refreshed by GitHub Actions on 2026-08-27._
 

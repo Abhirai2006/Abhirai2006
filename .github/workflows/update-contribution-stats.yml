@@ -126,13 +126,18 @@ jobs:
 
             const block = `${startMarker}
 
-            | Contribution metric | Current value |
-            |---|---:|
-            | Total contributions · last 12 months | ${values.totalContributions} |
-            | Active days · last 12 months | ${values.activeDays} |
-            | Current streak | ${values.currentStreak} days |
-            | Longest streak | ${values.longestStreak} days |
-            | Peak contributions · one day | ${values.peakPerDay} |
+            <table align="center">
+              <thead>
+                <tr><th>Contribution metric</th><th>Current value</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Total contributions · last 12 months</td><td align="right">${values.totalContributions}</td></tr>
+                <tr><td>Active days · last 12 months</td><td align="right">${values.activeDays}</td></tr>
+                <tr><td>Current streak</td><td align="right">${values.currentStreak} days</td></tr>
+                <tr><td>Longest streak</td><td align="right">${values.longestStreak} days</td></tr>
+                <tr><td>Peak contributions · one day</td><td align="right">${values.peakPerDay}</td></tr>
+              </tbody>
+            </table>
 
             _Last refreshed by GitHub Actions on ${now.toISOString().slice(0, 10)}._
 
