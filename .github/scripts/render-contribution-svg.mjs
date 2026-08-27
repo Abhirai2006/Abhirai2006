@@ -16,10 +16,15 @@ const width = Math.max(780, left + weeks.length * (cellSize + gap) + 28);
 const height = 7 * (cellSize + gap) + top + 38;
 const monthLabels = [];
 let previousMonth = '';
+let lastMonthX = -Infinity;
 for (let index = 0; index < days.length; index += 1) {
   const month = new Date(`${days[index].date}T00:00:00Z`).toLocaleString('en-US', { month: 'short', timeZone: 'UTC' });
+  const x = left + Math.floor(index / 7) * (cellSize + gap);
   if (month !== previousMonth && index % 7 === 0) {
-    monthLabels.push(`<text x="${left + Math.floor(index / 7) * (cellSize + gap)}" y=\"38\" fill=\"#8b949e\" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">${month.toUpperCase()}</text>`);
+    if (x - lastMonthX >= 42) {
+      monthLabels.push(`<text x="${x}" y=\"38\" fill=\"#8b949e\" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">${month.toUpperCase()}</text>`);
+      lastMonthX = x;
+    }
     previousMonth = month;
   }
 }

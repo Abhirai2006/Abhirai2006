@@ -125,6 +125,7 @@ jobs:
             }
 
             const block = `${startMarker}
+
             | Contribution metric | Current value |
             |---|---:|
             | Total contributions · last 12 months | ${values.totalContributions} |
@@ -134,6 +135,7 @@ jobs:
             | Peak contributions · one day | ${values.peakPerDay} |
 
             _Last refreshed by GitHub Actions on ${now.toISOString().slice(0, 10)}._
+
             ${endMarker}`.replace(/^            /gm, "");
 
             const updatedReadme = readme.slice(0, start) + block + readme.slice(end + endMarker.length);
