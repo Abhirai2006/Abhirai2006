@@ -134,7 +134,6 @@ _Last refreshed by GitHub Actions on 2026-09-08._
 </p>
 
 <p align="center">
-  <a href="https://www.gitanimals.org/en-US?utm_medium=image&utm_source=Abhirai2006&utm_content=farm">
 <img
   src="https://render.gitanimals.org/farms/Abhirai2006"
   width="600"
