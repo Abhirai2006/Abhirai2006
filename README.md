@@ -109,7 +109,7 @@ Daily Python practice documenting the grind from basics to advanced concepts.
     <tr><th>Contribution metric</th><th>Current value</th></tr>
   </thead>
   <tbody>
-    <tr><td>Total contributions · last 12 months</td><td align="right">978</td></tr>
+    <tr><td>Total contributions · last 12 months</td><td align="right">980</td></tr>
     <tr><td>Active days · last 12 months</td><td align="right">111</td></tr>
     <tr><td>Current streak</td><td align="right">4 days</td></tr>
     <tr><td>Longest streak</td><td align="right">26 days</td></tr>
