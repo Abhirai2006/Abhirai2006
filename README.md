@@ -148,6 +148,6 @@ _Last refreshed by GitHub Actions on 2026-10-07._
 
 <div align="center">
 
-[Portfolio](https://portfolio-abhirai2006.lovable.app/) · [GitHub](https://github.com/Abhirai2006) · [LinkedIn](https://linkedin.com/in/abhishek-rai-a-00067238b) · [Instagram](https://instagram.com/_abhishek.rai.a_)
+[Portfolio](https://portfolio-abhirai2006.lovable.app/) · [GitHub](https://github.com/Abhirai2006) · [LinkedIn](https://linkedin.com/in/abhishek-rai-a-00067238b) · [Instagram](https://instagram.com/_abhishek.rai.a_).
 
 </div>
