@@ -1,8 +1,14 @@
 <div align="center">
 
-<img src="banner.svg?v=1" alt="Abhishek Rai A - AI and ML Student" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img src="banner.svg?v=1" alt="Abhishek Rai A - AI and ML Student" width="100%">
+</picture>
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_abhishek.rai.a_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhishek-rai-a-00067238b) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhirai2006@gmail.com) [![GitHub followers](https://img.shields.io/github/followers/Abhirai2006?label=follow&style=social)](https://github.com/Abhirai2006)
+
+</div>
 
 <hr>
 
@@ -57,44 +63,81 @@
 
 <h2 align="center">Tech Stack</h2>
 
-[![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](#) [![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)](#) [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#) [![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)](#) [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](#) [![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](#) [![Supabase](https://img.shields.io/badge/supabase-3ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white)](#) [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=%2300C7B7)](#)
+<p align="center">
+  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
+  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/supabase-3ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=%2300C7B7" alt="Netlify">
+</p>
 
 <hr>
 
 <h2 align="center">GitHub Stats</h2>
 
-[![Abhishek's GitHub Stats](https://github-readme-stats.shion.dev/api?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true)](https://github.com/Abhirai2006)
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Abhirai2006&theme=github_dark&hide_border=false)](https://github.com/Abhirai2006)
+<p align="center">
+  <img height="165" src="https://github-readme-stats.shion.dev/api?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true" alt="Abhishek's GitHub Stats">
+  <img height="165" src="https://streak-stats.demolab.com/?user=Abhirai2006&theme=github_dark&hide_border=false" alt="GitHub Streak">
+</p>
 
-[![Top Languages](https://github-readme-stats.shion.dev/api/top-langs/?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)](https://github.com/Abhirai2006)
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Abhirai2006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages">
+</p>
 
 <hr>
 
 <h2 align="center">Contribution Activity</h2>
 
-[![Abhirai2006 GitHub contribution activity graph](https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/main/contribution-activity.svg)](https://github.com/Abhirai2006)
+<p align="center">
+  <a href="https://github.com/Abhirai2006">
+    <img src="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/main/contribution-activity.svg" alt="Abhirai2006 GitHub contribution activity graph" width="100%">
+  </a>
+</p>
 
-<sub>These values come from GitHub's daily contribution calendar and are updated by the workflow in <code>.github/workflows/update-contribution-stats.yml</code>. Active days means dates with at least one contribution. Longest streak means consecutive active dates.</sub>
+<p align="center"><sub>These values are calculated from GitHub’s daily contribution calendar and updated by the workflow in <code>.github/workflows/update-contribution-stats.yml</code>. <b>Active days</b> means dates with at least one contribution. <b>Longest streak</b> means consecutive active dates; it is not the same as the total number of active days.</sub></p>
 
-| Contribution metric                  | Current value |
-| ------------------------------------ | ------------- |
-| Total contributions · last 12 months | 1034          |
-| Active days · last 12 months         | 119           |
-| Current streak                       | 3 days        |
-| Longest streak                       | 26 days       |
-| Peak contributions · one day         | 62            |
+<!--START_GITHUB_CONTRIBUTION_STATS-->
+<table align="center">
+  <thead>
+    <tr><th>Contribution metric</th><th>Current value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Total contributions · last 12 months</td><td align="right">1315</td></tr>
+    <tr><td>Active days · last 12 months</td><td align="right">136</td></tr>
+    <tr><td>Current streak</td><td align="right">3 days</td></tr>
+    <tr><td>Longest streak</td><td align="right">26 days</td></tr>
+    <tr><td>Peak contributions · one day</td><td align="right">62</td></tr>
+  </tbody>
+</table>
 
-<sub>Last refreshed by GitHub Actions on 2026-10-02.</sub>
+_Last refreshed by GitHub Actions on 2026-10-22._
+
+<!--END_GITHUB_CONTRIBUTION_STATS-->
 
 <hr>
 
 <h2 align="center">Playground & Activity</h2>
 
-![Pacman contribution graph](https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph.svg)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph.svg">
+    <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/Abhirai2006/Abhirai2006/pacman-output/pacman-contribution-graph.svg">
+  </picture>
+</p>
 
-[![](https://render.gitanimals.org/farms/Abhirai2006)](https://render.gitanimals.org/farms/Abhirai2006)
+<p align="center">
+  <img src="https://render.gitanimals.org/farms/Abhirai2006" width="600" height="300" alt="GitAnimals farm">
+</p>
 
-[![Profile views](https://komarev.com/ghpvc/?username=Abhirai2006&style=flat&color=blue)](https://github.com/Abhirai2006)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Abhirai2006&style=flat&color=blue" alt="Profile views">
+</p>
+
+<div align="center">
 
 [Portfolio](https://portfolio.abhirai2006.workers.dev/) · [GitHub](https://github.com/Abhirai2006) · [LinkedIn](https://linkedin.com/in/abhishek-rai-a-00067238b) · [Instagram](https://instagram.com/_abhishek.rai.a_)
 
