@@ -107,14 +107,14 @@
   </thead>
   <tbody>
     <tr><td>Total contributions · last 12 months</td><td align="right">2117</td></tr>
-    <tr><td>Active days · last 12 months</td><td align="right">152</td></tr>
-    <tr><td>Current streak</td><td align="right">2 days</td></tr>
+    <tr><td>Active days · last 12 months</td><td align="right">151</td></tr>
+    <tr><td>Current streak</td><td align="right">0 days</td></tr>
     <tr><td>Longest streak</td><td align="right">26 days</td></tr>
     <tr><td>Peak contributions · one day</td><td align="right">154</td></tr>
   </tbody>
 </table>
 
-_Last refreshed by GitHub Actions on 2026-11-14._
+_Last refreshed by GitHub Actions on 2026-11-15._
 
 <!--END_GITHUB_CONTRIBUTION_STATS-->
 
