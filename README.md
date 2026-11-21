@@ -106,9 +106,9 @@
     <tr><th>Contribution metric</th><th>Current value</th></tr>
   </thead>
   <tbody>
-    <tr><td>Total contributions · last 12 months</td><td align="right">2754</td></tr>
-    <tr><td>Active days · last 12 months</td><td align="right">154</td></tr>
-    <tr><td>Current streak</td><td align="right">0 days</td></tr>
+    <tr><td>Total contributions · last 12 months</td><td align="right">2792</td></tr>
+    <tr><td>Active days · last 12 months</td><td align="right">155</td></tr>
+    <tr><td>Current streak</td><td align="right">4 days</td></tr>
     <tr><td>Longest streak</td><td align="right">26 days</td></tr>
     <tr><td>Peak contributions · one day</td><td align="right">420</td></tr>
   </tbody>
